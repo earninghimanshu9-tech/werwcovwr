@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeRecover - Instagram Account Recovery</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',
+                            light: '#1e293b',
+                            whatsapp: '#25D366',
+                            whatsappHover: '#128C7E'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Instagram Gradient Text Utility */
+        .text-insta-gradient {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .bg-insta-gradient {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-brand-dark text-slate-200 font-sans antialiased relative pb-24">
+
+    <!-- Navbar -->
+    <nav class="border-b border-slate-800 bg-brand-dark/90 backdrop-blur-md sticky top-0 z-40">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fa-solid fa-shield-halved text-2xl text-insta-gradient"></i>
+                    <span class="font-bold text-2xl tracking-tight text-white">We<span class="text-insta-gradient">Recover</span></span>
+                </div>
+                <div>
+                    <span class="bg-slate-800 text-sm font-semibold py-1 px-3 rounded-full text-slate-300 border border-slate-700">
+                        Secure Service
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-16 pb-20 lg:pt-24 lg:pb-28 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-brand-dark"></div>
+            <!-- Subtle gradient glow in background -->
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-purple-600/20 rounded-full blur-3xl opacity-30 pointer-events-none"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/80 border border-slate-700 mb-6 shadow-lg">
+                <i class="fa-brands fa-instagram text-pink-500"></i>
+                <span class="text-sm font-medium text-slate-200">Expert Instagram Recovery</span>
+            </div>
+            
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight">
+                Lost Your Instagram Account?<br/>
+                <span class="text-insta-gradient">We Can Get It Back.</span>
+            </h1>
+            
+            <p class="text-lg sm:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Hacked, disabled, or locked out? Don't panic. Our dedicated team specializes in fast and secure account recovery for a one-time fee of just 
+                <strong class="text-white bg-slate-800 px-2 py-1 rounded text-2xl border border-slate-700 ml-1">₹299</strong>.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <!-- Direct WhatsApp Link Button -->
+                <a href="https://wa.me/27789618308?text=Hi%20WeRecover,%20I%20need%20help%20recovering%20my%20Instagram%20account." target="_blank" rel="noopener noreferrer" 
+                   class="w-full sm:w-auto flex items-center justify-center gap-3 bg-brand-whatsapp hover:bg-brand-whatsappHover text-white font-bold text-lg py-4 px-8 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.3)] transition-all transform hover:scale-105">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    Recover Now - ₹299
+                </a>
+            </div>
+            
+            <p class="mt-4 text-sm text-slate-500 flex items-center justify-center gap-2">
+                <i class="fa-solid fa-lock"></i> 100% Secure & Confidential Process
+            </p>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Features -->
+    <section class="py-16 bg-brand-light border-y border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white mb-4">Why Choose WeRecover?</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">We understand how important your digital identity is. Our process is designed to be quick, transparent, and highly effective.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-brand-dark p-8 rounded-2xl border border-slate-700 hover:border-pink-500/50 transition-colors shadow-lg">
+                    <div class="w-14 h-14 rounded-full bg-slate-800 flex items-center justify-center mb-6 border border-slate-600">
+                        <i class="fa-solid fa-bolt text-2xl text-yellow-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Lightning Fast</h3>
+                    <p class="text-slate-400">We initiate the recovery process the moment you contact us on WhatsApp. No long waiting times.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-brand-dark p-8 rounded-2xl border border-slate-700 hover:border-pink-500/50 transition-colors shadow-lg">
+                    <div class="w-14 h-14 rounded-full bg-slate-800 flex items-center justify-center mb-6 border border-slate-600">
+                        <i class="fa-solid fa-shield-check text-2xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">100% Secure</h3>
+                    <p class="text-slate-400">Your data privacy is our top priority. We use secure channels and never store your sensitive passwords.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-brand-dark p-8 rounded-2xl border border-slate-700 hover:border-pink-500/50 transition-colors shadow-lg">
+                    <div class="w-14 h-14 rounded-full bg-slate-800 flex items-center justify-center mb-6 border border-slate-600">
+                        <i class="fa-solid fa-headset text-2xl text-blue-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Expert Support</h3>
+                    <p class="text-slate-400">Our team has successfully recovered hundreds of accounts. We guide you step-by-step through the whole process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-10">How It Works</h2>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 relative">
+                <!-- Connection Line (Desktop) -->
+                <div class="hidden md:block absolute top-1/2 left-[10%] right-[10%] h-0.5 bg-slate-800 -translate-y-1/2 z-0"></div>
+                
+                <!-- Step 1 -->
+                <div class="relative z-10 bg-brand-dark border border-slate-700 rounded-xl p-6 w-full max-w-xs shadow-xl">
+                    <div class="w-12 h-12 rounded-full bg-insta-gradient text-white font-bold text-xl flex items-center justify-center mx-auto mb-4 border-4 border-brand-dark shadow-md">1</div>
+                    <h4 class="font-bold text-lg text-white mb-2">Message Us</h4>
+                    <p class="text-sm text-slate-400">Click the WhatsApp button and tell us your username.</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="relative z-10 bg-brand-dark border border-slate-700 rounded-xl p-6 w-full max-w-xs shadow-xl">
+                    <div class="w-12 h-12 rounded-full bg-insta-gradient text-white font-bold text-xl flex items-center justify-center mx-auto mb-4 border-4 border-brand-dark shadow-md">2</div>
+                    <h4 class="font-bold text-lg text-white mb-2">Verification</h4>
+                    <p class="text-sm text-slate-400">We verify your ownership securely and begin the recovery.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="relative z-10 bg-brand-dark border border-slate-700 rounded-xl p-6 w-full max-w-xs shadow-xl">
+                    <div class="w-12 h-12 rounded-full bg-insta-gradient text-white font-bold text-xl flex items-center justify-center mx-auto mb-4 border-4 border-brand-dark shadow-md">3</div>
+                    <h4 class="font-bold text-lg text-white mb-2">Account Restored</h4>
+                    <p class="text-sm text-slate-400">Pay the flat ₹299 fee only when we successfully recover it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black/50 py-8 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="flex justify-center items-center gap-2 mb-4">
+                <i class="fa-solid fa-shield-halved text-xl text-slate-500"></i>
+                <span class="font-bold text-xl text-slate-300">WeRecover</span>
+            </div>
+            <p class="text-slate-500 text-sm mb-4">The ultimate solution for lost or hacked Instagram accounts.</p>
+            <p class="text-slate-600 text-xs">&copy; 2023 WeRecover. All rights reserved. Not affiliated with Instagram or Meta Platforms, Inc.</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA Button -->
+    <div class="fixed bottom-4 left-0 right-0 z-50 px-4 sm:px-0 flex justify-center pointer-events-none">
+        <a href="https://wa.me/27789618308?text=Hi%20WeRecover,%20I%20need%20help%20recovering%20my%20Instagram%20account." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="pointer-events-auto flex items-center justify-center gap-2 bg-brand-whatsapp hover:bg-brand-whatsappHover text-white font-bold py-3 px-6 rounded-full shadow-[0_4px_15px_rgba(37,211,102,0.4)] transition-transform transform hover:scale-105 active:scale-95 w-full max-w-sm border border-[#20b858]">
+            <i class="fa-brands fa-whatsapp text-2xl animate-pulse"></i>
+            <span>Recover Now on WhatsApp - ₹299</span>
+        </a>
+    </div>
+
+</body>
+</html>
